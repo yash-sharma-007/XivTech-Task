@@ -42,8 +42,8 @@ export const Mainpage = () => {
           <textarea
             name="cityname"
             id="cityname"
-            cols="100"
-            rows="10"
+            cols="60"
+            rows="6"
             className="form-control"
             placeholder="Please Enter City name with comma separate"
           ></textarea>
