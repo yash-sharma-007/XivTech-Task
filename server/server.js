@@ -10,7 +10,7 @@ require('dotenv').config({
 
 app.use(cors())
 app.use(express.json())
-app.use('/',require('./routes/city'))
+app.use('/getweather',require('./routes/city'))
 
 
 
