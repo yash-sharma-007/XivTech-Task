@@ -4,7 +4,7 @@
 ### Prerequisites
 - [React.js](https://reactjs.org/)
 - [Node.js](https://nodejs.org/)
-- - [Express.js](https://expressjs.com/)
+- [Express.js](https://expressjs.com/)
 - [npm](https://www.npmjs.com/)
 
   
