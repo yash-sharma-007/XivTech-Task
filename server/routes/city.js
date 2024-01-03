@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-router.post('/getweather', async (req, res) => {
+router.post('/', async (req, res) => {
     try {
         let { cities } = req.body;
         cities = cities.filter(city => city.trim() !== '');
