@@ -33,7 +33,6 @@ router.post('/', async (req, res) => {
             }
         }));
         arr  = arr.filter(data => data.city!=="undefined")
-        console.log(arr)
         if (arr.length === 0) {
             res.json({ data: arr, success: false });
         } else {
